@@ -1,4 +1,4 @@
-const data = {
+const MEMBOR_DATA = {
   title: "React list 구현",
   data: [
     {
@@ -94,4 +94,4 @@ const data = {
   ],
 };
 
-export default data;
+export const { data: memberList } = MEMBOR_DATA;
